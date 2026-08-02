@@ -1183,7 +1183,7 @@
     if (moreBtn) moreBtn.style.display = 'none';
 
     try {
-      const listRef = storage.ref('gallery2');
+      const listRef = storage.ref('gallery');
       const opts    = { maxResults: 12 };
       if (append && galleryPageToken) opts.pageToken = galleryPageToken;
 
